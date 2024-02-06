@@ -1,0 +1,31 @@
+*{
+    background-color: #1ABC9C;
+}
+.main{
+    padding-top: 10%;
+}
+
+
+.line{
+    width: 50%;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    z-index: 11;
+}
+.line::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 36%;
+    width: 30%;
+    height: 10px;
+    background-color:  #1ABC9C;
+}
+
+.line i {
+    z-index: 111;
+    position: absolute;
+    top: -8px;
+    left: 45%;
+}
